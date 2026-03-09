@@ -1,3 +1,19 @@
 spring:
   application:
     name: auth
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/authDb
+    username: root
+    password: Prajyot@321
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  security:
+    user:
+      name: admin
+      password: admin123
